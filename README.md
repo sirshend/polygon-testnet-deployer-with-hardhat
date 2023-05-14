@@ -21,7 +21,9 @@ Once this app is created and shows up on the dashboard, click on the ```VIEW KEY
 Notice the HTTPS. For me it is https://polygon-mumbai.g.alchemy.com/v2/O0EMJRcLcIBcKXb37aQ0pYbHxj0mpSok . 
 This will be rpc endpoint for us. We will use this while setting up a custom metamask wallet for the polygon testnet. We will also need this along with the metamask account details in our Hardhat project while building the deployer. 
 
-This also should be kept secret while working with the mainnet and not revealed. But since this is just a testnet and with just fake coins, I can reveal it. 
+This also should be kept secret while working with the mainnet and not revealed. But since this is just a testnet and with just fake coins, I can reveal it. Now, let's setup a wallet on testnet using metamask. 
+
+## Setting up a Metamask wallet for polygon testnet 
 
 
 
