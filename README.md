@@ -28,7 +28,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. It doesn't work on Safari).
 
 <img width="300" alt="Screenshot 2023-05-15 at 12 17 55 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/fdef50df-adb7-4e66-996b-7123af8cb789">
-<img width="300" alt="Screenshot 2023-05-15 at 12 18 17 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/33901081-0245-4c8e-868f-cc9e09b197be">
+<img width="400" alt="Screenshot 2023-05-15 at 12 18 17 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/33901081-0245-4c8e-868f-cc9e09b197be">
 <img width="300" alt="Screenshot 2023-05-15 at 12 19 50 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/a773b6a5-eb30-42cc-8b37-1ece7f846885">
 
 
