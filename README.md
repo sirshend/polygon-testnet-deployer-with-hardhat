@@ -13,6 +13,8 @@ Once you signup, you go to Apps on top, and notice a default app has already bee
 
 <img width="801" alt="Screenshot 2023-05-14 at 7 35 20 pm" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/e7383688-6a7f-4562-b698-c98891ed3561">
 
+Give whatever suitable name or description you want, but choose ```Polygon POS``` and ```Polygon Mumbai``` as shown. Then click ```CREATE APP```
+
 
 ## Section 2
 
