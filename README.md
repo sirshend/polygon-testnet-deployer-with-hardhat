@@ -5,7 +5,7 @@
 Instead of just ```git clone```-ing this repo, follow the steps listed below to build the deployer. 
 
 ## Sign-up for a free alchemy account: 
---------------------------------------
+
 
 If you follow the online tutorials, you will find several rpc endpoints for the polygon testnet(The polygon testnet is known as "mumbai"). Common ones include https://rpc-mumbai.maticvigil.com , https://matic-mumbai.chainstacklabs.com etc. It isn't obvious which rpc endpoint is working right now, and at the time of writing, I couldn't make either of these 2 work. So it is better to get a free custom endpoint from Alchemy. 
 
@@ -31,7 +31,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 
 
 ## Setting up a Metamask wallet for polygon testnet: 
-----------------------------------------------------
+
 
 Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. I am using Edge here. Metamask doesn't work on Safari).
 
@@ -55,7 +55,7 @@ For Block explorer URL: Enter https://mumbai.polygonscan.com
 
 
 ## Getting the private key of our metamask wallet:
---------------------------------------------------
+
 
 We need the private key to store it a ```.env``` file in hardhat. 
 
@@ -71,7 +71,7 @@ ghjgc
 
 
 ## Setting up Hardhat: 
-----------------------
+
 
 You need node and npm installed. Download their latest versions. 
 Make a new directory for the deployer. 
@@ -131,7 +131,7 @@ Now, we are done with HardHat setup. You will find some files and folders have a
 
 
 ## Buidling the deployer:
--------------------------
+
 
 You will see that there's a smart-contract by default already under ```contracts``` folder. For me, it is ```Lock.sol```. 
 Add whatever solidity smart-contracts you wish to deploy to this ```contracts``` folder, just as I have added ```SimpleContract.sol``` there. 
@@ -268,7 +268,7 @@ This line will print the address where this contract is deployed.
 
 
 ## Compiling these contracts and deploying:
--------------------------------------------
+
 
 Compile all the contracts in your folder with 
 ```
