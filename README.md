@@ -179,7 +179,24 @@ Similarly, if you look at ```SimpleContract```'s section of the deployment:
 }
 ```
 
-Notice in ```contracts/SimpleContract.sol```, its constructor has to take a string input. 
+Notice in ```contracts/SimpleContract.sol```, its constructor has to take a string input, which is used to set the value ```string public message;```. 
+```solidity
+//file contracts/SimpleContract.sol
+
+pragma solidity ^0.8.9;
+import "hardhat/console.sol";
+contract SimpleContract {
+    string public message;
+    constructor(string memory initialMessage) {
+        message = initialMessage;
+    }
+    
+    function setMessage(string memory newMessage) public {
+        console.log("This smart contract's constructor was initialised with messafe %o . You can set your new message here with this function", message);
+        message = newMessage;
+    }
+}
+```
 So once again we initialise this string in ```let message = "hello world"```.
 Then, we pick this contract by its name using ```.getContractFactory("SimpleContract")```
 After that we deploy it using ```.deploy()``` and pass the constructor arguments to deploy in ```.deploy(message)```.
@@ -227,21 +244,5 @@ Exact message on the terminal depends on how you setup the ```console.log()```s 
 
 You can now go to [mumbai.polygonscan.com](https://mumbai.polygonscan.com) or your metamask wallet or your alchemy dashboard and can see the deployed smartcontract. 
 
-```solidity
-pragma solidity ^0.8.9;
 
-import "hardhat/console.sol";
-contract SimpleContract {
-    string public message;
-    
-    constructor(string memory initialMessage) {
-        message = initialMessage;
-    }
-    
-    function setMessage(string memory newMessage) public {
-        console.log("This smart contract's constructor was initialised with messafe %o . You can set your new message here with this function", message);
-        message = newMessage;
-    }
-}
-```
 
