@@ -27,7 +27,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 
 
 
-## Setting up hardhat and buidling the deployer. 
+## Setting up Hardhat and buidling the deployer. 
 
 You need node and npm installed. Download their latest versions. 
 
