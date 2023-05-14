@@ -1,9 +1,9 @@
 
-# Polygon testnet-deployer-with-hardhat
+# Deploying multiple smart-contracts on Polygon testnet using Hardhat
 
-# My Markdown Document
+## Sign-up for a free alchemy account 
 
-This is some text in the first section.
+If you follow the online tutorials, you will find several rpc endpoints for the polygin testnet(The polygon testnet is known as "mumbai"). Common ones include ```https://rpc-mumbai.maticvigil.com``` , ```https://matic-mumbai.chainstacklabs.com```. 
 
 ## Section 2
 
