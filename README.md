@@ -128,5 +128,21 @@ module.exports = {
 };
 ```
 
+Here ```require("dotenv").config();``` helps us to export/use the values of ```API_URL``` & ```PRIVATE_KEY``` which we later use in 
+```const { API_URL, PRIVATE_KEY } = process.env;```
+
+Also look at the snippet below:
+```javascript
+networks: {
+    mumbai: {
+      url: API_URL,
+      accounts: [`0x${PRIVATE_KEY}`]
+    }
+
+  }
+```
+Here we are naming the network we will be using, and use this to make the connection to testnet using our wallet account during deployment. 
+
+Finally look at ```deploy.js```
 
 
