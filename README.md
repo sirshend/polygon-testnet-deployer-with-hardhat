@@ -278,7 +278,8 @@ Exact message on the terminal depends on how you setup the ```console.log()```s 
 
 **You have SUCCESSFULLY deployed all you smartcontracts**.
 
-You can now go to [mumbai.polygonscan.com](https://mumbai.polygonscan.com) or your metamask wallet or your alchemy dashboard and can see the deployed smartcontract. 
+You can now go to [mumbai.polygonscan.com](https://mumbai.polygonscan.com) or your metamask wallet or your alchemy dashboard and can see the deployed smartcontract.
+You can enter the address to which a particular contract has been deployed(which you saw in output during running ```npx hardhat run scripts/deploy.js --network mumbai```) in https://mumbai.polygonscan.com . You can also enter your metamask account address here to check transcations, account balance etc. 
 
 
 ### To do:
