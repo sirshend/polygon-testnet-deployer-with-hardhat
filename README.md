@@ -83,6 +83,8 @@ Inside this, create a minimal npm project.
 ```
 npm init --yes
 ```
+Use the ```--yes``` option. This will make it easier for you and start with a boilerplate version ready for development. You don't have to make tonnes of choices for customisation of the node project right at the beginning.
+
 Now we need to download the hardhat package and some other necessaary dependendies. 
 ```
 npm install --save-dev hardhat
