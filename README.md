@@ -31,7 +31,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 
 You need node and npm installed. Download their latest versions. 
 Make a new directory for the deployer. 
-```
+```bash
 mkdir polygon-testnet-deployer-with-hardhat
 cd polygon-testnet-deployer-with-hardhat
 ```
