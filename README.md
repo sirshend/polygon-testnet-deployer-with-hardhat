@@ -343,11 +343,26 @@ Does adding ```wss://``` instead of ```https://``` to https://rpc-mumbai.maticvi
 https://rpc-mumbai.maticvigil.com and https://matic-mumbai.chainstacklabs.com are also working. 
 Since these are open for all rpc endpoints, the previous error might be because of excess load ( or something else that I couldn't figure out then).
 Anyway, to make these endpoints work, do the following:
-```
-1. 
-2.
-3.
-4.
 
 ```
+1. When we did the "Add a network manually" on metamask, in "New RPC url" write https://rpc-mumbai.maticvigil.com or https://matic-mumbai.chainstacklabs.com (instead of the https endpoint we got from alchemy.
+2. Keep rest of the details, like Chain Id, block explorer and others unchanged in the "Add a network manually" section.
+3. In the ".env" file, change the API_URL to either API_URL=https://rpc-mumbai.maticvigil.co or API_URL=https://matic-mumbai.chainstacklabs.com (instead of the alchemy endpoint)
+4. Keep everything else in the deployer unchanged. We only changed the API_URL in .env 
+5. Run "npx hardhat run scripts/deploy.js --network mumbai"
+
+```
+
+This should show the succesful deployment message along with the addresses where the contracts have been deployed.
+
+I changed the API_URL in ```.env``` thrice and ran the deploy script each time.
+I ran the deploy script for our custom alchemy rpc endpoint https://polygon-mumbai.g.alchemy.com/v2/O0EMJRcLcIBcKXb37aQ0pYbHxj0mpSok .
+Then I also ran https://rpc-mumbai.maticvigil.com & https://matic-mumbai.chainstacklabs.com.
+
+Got successful deployment all 3 times. 
+
+<p align="center">
+<img width="800" height="400" alt="Screenshot 2023-05-15 at 3 19 39 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/08190d2b-458c-4a4f-b07e-c804b1a7ce21">
+</p>
+
 
