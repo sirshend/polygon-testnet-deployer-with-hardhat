@@ -67,6 +67,17 @@ If you haven't pressed ```y``` in the last option, you can download them later w
 ```
 npm install --save-dev @nomicfoundation/hardhat-toolbox@^2.0.0
 ```
+We need to download one further package, and then we are set. 
+```
+npm install dotenv --save
+```
+```dotenv``` will help us make a .env file which will contain the rpc endpoint we got from alchemy, as well as the private key of our metamask wallet. 
+This ```.env``` file should be in the project root directory, along with ```.gitignore``` and other files and folders.
+The ```.env``` file will be included in ```.gitignore``` along with hardhat caches and other hardhat artefacts. 
+So while you are in project root directory, create a new env file with 
+```
+touch .env
+```
 
 
 
