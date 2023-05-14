@@ -66,6 +66,8 @@ We need the private key to store it a ```.env``` file in hardhat.
 
 
 
+## Getting free MATIC tokens from faucet:
+
 
 Also you need some MATIC tokens to deploy the smart contracts. Don't worry!!
 Since we are going to use the Polygon testnet, we will be using fake money(tokens), and won't be required to pay any money.
