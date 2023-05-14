@@ -22,15 +22,12 @@ async function main() {
       lockedAmount
     )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
   );
+  
+  
   let message = "hello world";
   const SimpleContract = await ethers.getContractFactory("SimpleContract");
   const simpleContract = await SimpleContract.deploy(message);
   await simpleContract.deployed();
-  // console.log(
-  //   `SimpleContract with ${ethers.utils.formatEther(
-  //     lockeddAmount
-  //   )}ETH and unlock timestamp ${unlockTiime} deployed to ${simpleContract.address}`
-  // );
   console.log(`SimpleContract with default message: ${message} deployed to: ${simpleContract.address}`);
 }
 
