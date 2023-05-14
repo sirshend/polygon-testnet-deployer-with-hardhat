@@ -92,6 +92,15 @@ Now, there are 3 files we need to change to finish the deployer, viz.
 2) deploy.js in scripts folder 
 3) hardhat.config.js in project root 
 ```
+Let's change the ```.env``` file first. Paste these 2 lines. 
+```
+API_URL=https://polygon-mumbai.g.alchemy.com/v2/O0EMJRcLcIBcKXb37aQ0pYbHxj0mpSok
+PRIVATE_KEY=04a3b016a520eef9cad99798cd047181e254db2eccc75bc7c68297865a91a253
+```
+Notice that the API_URL is the same as the HTTPS we copied from alchemy. 
+And the PRIVATE_KEY is the one we copied from metamask during setting up of the wallet. 
+**IMPORTANT:** Do **NOT** use **double quotes**. These are not normal strings. 
+Also since ```.env``` is in ```.gitignore```, these details won't be pushed to your github. 
 
 
 ```python
