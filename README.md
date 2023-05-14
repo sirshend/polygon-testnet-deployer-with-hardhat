@@ -67,7 +67,13 @@ We need the private key to store it a ```.env``` file in hardhat.
 
 
 
-ghjgc
+Also you need some MATIC tokens to deploy the smart contracts. Don't worry!!
+Since we are going to use the Polygon testnet, we will be using fake money(tokens), and won't be required to pay any money.
+The token for Polygon testnet is named ```MATIC```.
+
+Go to https://mumbaifaucet.com .
+Signup/login with the same gmail-ID or way you did while signing up to alchemy.
+Paste your metamask wallet id and get MATIC tokens for free. 
 
 
 ## Setting up Hardhat: 
