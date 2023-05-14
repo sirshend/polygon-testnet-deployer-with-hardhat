@@ -213,4 +213,18 @@ npx hardhat run scripts/deploy.js --network mumbai
 Here it uses the ```scripts/deploy.js``` to deploy each of the contracts described in ```deploy.js```. 
 Also ```--network mumbai``` uses the network details of testnet mentioned in ```hardhat.config.js```
 
+If deployment is successful, you will see messages like this:
+
+```
+Lock with 0.001ETH and unlock timestamp 1684080050 deployed to 0x348e5b189B7bAce083984c5F14220e8F456cBb28
+SimpleContract with default message: hello world deployed to: 0x9605086405BbAC07A1FE7F9D8C838ec94fFB51E8
+```
+
+Exact message on the terminal depends on how you setup the ```console.log()```s in ```deploy.js```
+
+
+**You have SUCCESSFULLY deployed all you smartcontracts**.
+
+You can now go to [mumbai.polygonscan.com](https://mumbai.polygonscan.com) or your metamask wallet or your alchemy dashboard and can see the deployed smartcontract. 
+
 
