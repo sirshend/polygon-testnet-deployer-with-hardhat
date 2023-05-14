@@ -77,6 +77,12 @@ Go to https://mumbaifaucet.com .
 Signup/login with the same gmail-ID or way you did while signing up to alchemy.
 Paste your metamask wallet id and get MATIC tokens for free. 
 
+This will give you for free about 1 ether worth in MATIC tokens(the values are all fake and so don't matter).
+This should be enough for the deploying your smart contracts.
+This faucet can give you free MATIC tokens only once in 24 hours. 
+
+Try other online faucets which give free tokens for testnet development purposes. 
+
 
 ## Setting up Hardhat: 
 
