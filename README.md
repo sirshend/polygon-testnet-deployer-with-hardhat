@@ -274,4 +274,9 @@ Exact message on the terminal depends on how you setup the ```console.log()```s 
 You can now go to [mumbai.polygonscan.com](https://mumbai.polygonscan.com) or your metamask wallet or your alchemy dashboard and can see the deployed smartcontract. 
 
 
+### To do:
+
+Make this whole thing work with just https://rpc-mumbai.maticvigil.com or https://matic-mumbai.chainstacklabs.com; without using alchemy.
+Find a way to track the latest rpc endpoint active. 
+Does adding ```wss://``` instead of ```https://``` to https://rpc-mumbai.maticvigil.com etc solve it? Need to try this out.
 
