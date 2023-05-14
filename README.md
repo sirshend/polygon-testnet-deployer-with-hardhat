@@ -27,7 +27,9 @@ This will be rpc endpoint for us. We will use this while setting up a custom met
 
 This also should be kept secret while working with the mainnet and not revealed. But since this is just a testnet and with just fake coins, I can reveal it. Now, let's setup a wallet on testnet using metamask. 
 
+
 ## Setting up a Metamask wallet for polygon testnet: 
+
 
 Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. I am using Edge here. Metamask doesn't work on Safari).
 
@@ -49,7 +51,9 @@ Chain ID for Polygon Mumbai testnet is 80001, so put enter 80001 there.(Don't pu
 Currency Symbol: Just type MATIC (again don't put MATIC within doublq quotes)
 For Block explorer URL: Enter https://mumbai.polygonscan.com
 
+
 ## Getting the private key of our metamask wallet
+
 
 We need the private key to store it a ```.env``` file in hardhat. 
 
@@ -61,9 +65,11 @@ We need the private key to store it a ```.env``` file in hardhat.
 
 
 
+ghjgc
 
 
 ## Setting up Hardhat: 
+
 
 You need node and npm installed. Download their latest versions. 
 Make a new directory for the deployer. 
@@ -121,7 +127,9 @@ touch .env
 ```
 Now, we are done with HardHat setup. You will find some files and folders have automatically got created by hardhat during the installation process. Let's change some of these files to build the deployer. 
 
+
 ## Buidling the deployer:
+
 
 You will see that there's a smart-contract by default already under ```contracts``` folder. For me, it is ```Lock.sol```. 
 Add whatever solidity smart-contracts you wish to deploy to this ```contracts``` folder, just as I have added ```SimpleContract.sol``` there. 
@@ -256,7 +264,9 @@ Once each of the contract's in your folder are deployed, i.e. ```await simpleCon
 ```
 This line will print the address where this contract is deployed. 
 
+
 ## Compiling these contracts and deploying:
+
 
 Compile all the contracts in your folder with 
 ```
