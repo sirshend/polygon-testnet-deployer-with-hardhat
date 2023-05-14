@@ -82,8 +82,17 @@ Now, we are done with HardHat setup. You will find some files and folders have a
 
 ## Buidling the deployer:
 
+You will see that there's a smart-contract by default already under ```contracts``` folder. For me, it is ```Lock.sol```. 
+Add whatever solidity smart-contracts you wish to deploy to this ```contracts``` folder, just as I have added ```SimpleContract.sol``` there. 
 
-Here's some code in Python:
+Now, there are 3 files we need to change to finish the deployer, viz. 
+
+```
+1) .env in project root 
+2) deploy.js in scripts folder 
+3) hardhat.config.js in project root 
+```
+
 
 ```python
 def add_numbers(a, b):
