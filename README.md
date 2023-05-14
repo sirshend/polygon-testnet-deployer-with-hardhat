@@ -29,7 +29,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 
 ## Setting up a Metamask wallet for polygon testnet: 
 
-Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. It doesn't work on Safari).
+Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. I am using Edge here. Metamask doesn't work on Safari).
 
 <!-- To force these two rows of 3 images to be in same line, try enclosing these image src files with <div style="display:flex; justify-content:center;"> </div> -->
 <img width="300" height="300" alt="Screenshot 2023-05-15 at 12 17 55 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/fdef50df-adb7-4e66-996b-7123af8cb789">
