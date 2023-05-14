@@ -106,9 +106,7 @@ These are not normal strings.
 
 Also since ```.env``` is in ```.gitignore```, these details won't be pushed to your github. 
 
+Now, let's change ```hardhat.config.js```. This will hold our network configurations and other details. 
 
-```python
-def add_numbers(a, b):
-    return a + b
-```
+
 
