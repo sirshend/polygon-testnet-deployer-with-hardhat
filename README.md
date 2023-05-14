@@ -198,4 +198,19 @@ Once each of the contract's in your folder are deployed, i.e. ```await simpleCon
 ```
 This line will print the address where this contract is deployed. 
 
+## Compiling these contracts and deploying:
+
+Compile all the contracts in your folder with 
+```
+npx hardhat compile
+```
+
+Then finally deploy these contracts with 
+```
+npx hardhat run scripts/deploy.js --network mumbai
+```
+
+Here it uses the ```scripts/deploy.js``` to deploy each of the contracts described in ```deploy.js```. 
+Also ```--network mumbai``` uses the network details of testnet mentioned in ```hardhat.config.js```
+
 
