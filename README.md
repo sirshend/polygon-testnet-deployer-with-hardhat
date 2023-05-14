@@ -336,5 +336,5 @@ You can also enter your metamask account address here to check transcations, acc
 
 Make this whole thing work with just https://rpc-mumbai.maticvigil.com or https://matic-mumbai.chainstacklabs.com; without using alchemy.
 Find a way to track the latest rpc endpoint active. 
-Does adding ```wss://``` instead of ```https://``` to https://rpc-mumbai.maticvigil.com etc solve it? Need to try this out.
+Does adding ```wss://``` instead of ```https://``` to https://rpc-mumbai.maticvigil.com etc. solve it? Need to try this out.
 
