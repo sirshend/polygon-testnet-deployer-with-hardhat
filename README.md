@@ -76,6 +76,10 @@ Inside this, create a minimal npm project.
 npm init --yes
 ```
 Now we need to download the hardhat package and some other necessaary dependendies. 
+```
+~$pwd
+~/Users/sirshendu/codes/polygon-testnet-deployer-with-hardhat
+```
 Ensure that we are in the project root directory (i.e. ```polygon-testnet-deployer-with-hardhat``` ) during all this. 
 ```
 npm install --save-dev hardhat
@@ -93,7 +97,7 @@ If you somehow mistakenly choose something else or fumble, you can press `y` on 
 Anyway, on clicking ```Create a JavaScript project```, you will find:
 
 ```
-Hardhat project root: · /Users/sirshendu/codes/hardhat-1
+Hardhat project root: · /Users/sirshendu/codes/polygon-testnet-deployer-with-hardhat
 Do you want to add a .gitignore? (Y/n) · y
 Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
 ```
