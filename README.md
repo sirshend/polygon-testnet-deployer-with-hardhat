@@ -78,7 +78,7 @@ So while you are in project root directory, create a new env file with
 ```bash
 touch .env
 ```
-Now, we are done with HardHat setup. Let's change some files to build the deployer. 
+Now, we are done with HardHat setup. You will find some files and folders have automatically got created by hardhat during the installation process. Let's change some of these files to build the deployer. 
 
 ## Buidling the deployer:
 
