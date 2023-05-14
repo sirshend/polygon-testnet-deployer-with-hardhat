@@ -30,13 +30,18 @@ Login to your metamask account on your preffered browser(Metamask works on eithe
 <img width="300" height="300" alt="Screenshot 2023-05-15 at 12 17 55 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/fdef50df-adb7-4e66-996b-7123af8cb789">
 <img width="400" height="300" alt="Screenshot 2023-05-15 at 12 18 17 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/33901081-0245-4c8e-868f-cc9e09b197be">
 <img width="300" height="300" alt="Screenshot 2023-05-15 at 12 19 50 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/a773b6a5-eb30-42cc-8b37-1ece7f846885">
-First click on the drop-down list in the upper middle portion of your metamask wallet. By default it should be "Ethereum" main-net. In the list, choose ```Add network``` .
+
+First click on the drop-down list in the upper middle portion of your metamask wallet. By default it should be "Ethereum" main-net. In the list, choose ```Add network``` 
+
 In the next screen that opens, choose ```Add a network manually``` (at the bottom of the screen)
-Next, add whatever name you want to give to your network,
+
+Next, add whatever name you want to give to your network.
+
 In ```New RPC URL```, you need to copy the HTTPS you got in ```view key``` for the new app you created on alchemy. For me it was https://polygon-mumbai.g.alchemy.com/v2/O0EMJRcLcIBcKXb37aQ0pYbHxj0mpSok . So I will paste that here. 
+
 Chain ID for Polygon Mumbai testnet is 80001, so put enter 80001 there.(Don't put 80001 within double quotes)
 Currency Symbol: Just type MATIC (again don't put MATIC within doublq quotes)
-For Block explorer URL: Enter mumbai.polygonscan.com
+For Block explorer URL: Enter https://mumbai.polygonscan.com
 
 
 
