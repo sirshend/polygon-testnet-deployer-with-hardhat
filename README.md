@@ -3,7 +3,7 @@
 
 Instead of just ```git clone```ing this repo, follow the steps listed below to build the deployer. 
 
-## Sign-up for a free alchemy account 
+## Sign-up for a free alchemy account: 
 
 If you follow the online tutorials, you will find several rpc endpoints for the polygon testnet(The polygon testnet is known as "mumbai"). Common ones include https://rpc-mumbai.maticvigil.com , https://matic-mumbai.chainstacklabs.com etc. It isn't obvious which rpc endpoint is working right now, and at the time of writing, I couldn't make either of these 2 work. So it is better to get a free custom endpoint from Alchemy. 
 
@@ -23,11 +23,11 @@ This will be rpc endpoint for us. We will use this while setting up a custom met
 
 This also should be kept secret while working with the mainnet and not revealed. But since this is just a testnet and with just fake coins, I can reveal it. Now, let's setup a wallet on testnet using metamask. 
 
-## Setting up a Metamask wallet for polygon testnet 
+## Setting up a Metamask wallet for polygon testnet: 
 
 
 
-## Setting up Hardhat and buidling the deployer. 
+## Setting up Hardhat: 
 
 You need node and npm installed. Download their latest versions. 
 Make a new directory for the deployer. 
@@ -78,7 +78,9 @@ So while you are in project root directory, create a new env file with
 ```bash
 touch .env
 ```
+Now, we are done with HardHat setup. Let's change some files to build the deployer. 
 
+## Buidling the deployer:
 
 
 Here's some code in Python:
