@@ -75,7 +75,7 @@ npm install dotenv --save
 This ```.env``` file should be in the project root directory, along with ```.gitignore``` and other files and folders.
 The ```.env``` file will be included in ```.gitignore``` along with hardhat caches and other hardhat artefacts. 
 So while you are in project root directory, create a new env file with 
-```
+```bash
 touch .env
 ```
 
