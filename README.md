@@ -35,6 +35,19 @@ Make a new directory for the deployer.
 mkdir polygon-testnet-deployer-with-hardhat
 cd polygon-testnet-deployer-with-hardhat
 ```
+Inside this, create a minimal npm project. 
+```
+npm init --yes
+```
+Now we need to download the hardhat package and some other necessaary dependendies. 
+Ensure that we are in the project root directory (i.e. ```polygon-testnet-deployer-with-hardhat``` ) during all this. 
+```
+npm install --save-dev hardhat
+```
+Once hardhat is installed, we have to start a hardhat project with the following command. 
+```
+npx hardhat
+```
 
 
 Here's some code in Python:
