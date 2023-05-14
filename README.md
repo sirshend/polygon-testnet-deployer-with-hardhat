@@ -77,13 +77,14 @@ npm init --yes
 ```
 Now we need to download the hardhat package and some other necessaary dependendies. 
 ```
-~$pwd
-~/Users/sirshendu/codes/polygon-testnet-deployer-with-hardhat
+npm install --save-dev hardhat
 ```
 Ensure that we are in the project root directory (i.e. ```polygon-testnet-deployer-with-hardhat``` ) during all this. 
 ```
-npm install --save-dev hardhat
+~$pwd
+~/Users/sirshendu/codes/polygon-testnet-deployer-with-hardhat
 ```
+
 Once hardhat is installed, we have to start a hardhat project with the following command. 
 ```
 npx hardhat
