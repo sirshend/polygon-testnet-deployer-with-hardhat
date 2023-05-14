@@ -1,5 +1,5 @@
 
-<u># Deploying multiple smart-contracts on Polygon testnet using Hardhat</u>
+# Deploying multiple smart-contracts on Polygon testnet using Hardhat
 
 Instead of just ```git clone```-ing this repo, follow the steps listed below to build the deployer. 
 
