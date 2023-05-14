@@ -19,7 +19,7 @@ Give whatever suitable name or description you want, but choose ```Polygon POS``
 Once this app is created and shows up on the dashboard, click on the ```VIEW KEY``` option of the app(on its right)
 
 <p align="center">
-<img width="800" height="300" alt="Screenshot 2023-05-14 at 7 43 01 pm" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/af1b2a5b-bf88-4594-9169-0ec23d662a12">
+<img width="800" height="400" alt="Screenshot 2023-05-14 at 7 43 01 pm" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/af1b2a5b-bf88-4594-9169-0ec23d662a12">
 </p>
 
 Notice the HTTPS. For me it is https://polygon-mumbai.g.alchemy.com/v2/O0EMJRcLcIBcKXb37aQ0pYbHxj0mpSok . 
@@ -30,7 +30,7 @@ This also should be kept secret while working with the mainnet and not revealed.
 ## Setting up a Metamask wallet for polygon testnet: 
 
 Login to your metamask account on your preffered browser(Metamask works on either edge/chrome/brave/firefox. It doesn't work on Safari).
-
+<!-- To force these two rows of 3 images to be in same line, try enclosing these image src files with <div style="display:flex; justify-content:center;"> </div> -->
 <img width="300" height="300" alt="Screenshot 2023-05-15 at 12 17 55 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/fdef50df-adb7-4e66-996b-7123af8cb789">
 <img width="400" height="300" alt="Screenshot 2023-05-15 at 12 18 17 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/33901081-0245-4c8e-868f-cc9e09b197be">
 <img width="300" height="300" alt="Screenshot 2023-05-15 at 12 19 50 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/a773b6a5-eb30-42cc-8b37-1ece7f846885">
