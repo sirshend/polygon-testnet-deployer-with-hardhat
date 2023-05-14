@@ -30,6 +30,11 @@ This also should be kept secret while working with the mainnet and not revealed.
 ## Setting up Hardhat and buidling the deployer. 
 
 You need node and npm installed. Download their latest versions. 
+Make a new directory for the deployer. 
+```
+mkdir polygon-testnet-deployer-with-hardhat
+cd polygon-testnet-deployer-with-hardhat
+```
 
 
 Here's some code in Python:
