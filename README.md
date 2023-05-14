@@ -106,7 +106,27 @@ These are not normal strings.
 
 Also since ```.env``` is in ```.gitignore```, these details won't be pushed to your github. 
 
-Now, let's change ```hardhat.config.js```. This will hold our network configurations and other details. 
+Now, let's change ```hardhat.config.js```. This will hold our network configurations and other details.
+Delete whatever there is in ```hardhat.config.js``` with ```Ctrl+A``` and Delete. 
+Then paste this
+
+```javascript
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+
+const { API_URL, PRIVATE_KEY } = process.env;
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.18",
+  networks: {
+    mumbai: {
+      url: API_URL,
+      accounts: [`0x${PRIVATE_KEY}`]
+    }
+
+  }
+};
+```
 
 
 
