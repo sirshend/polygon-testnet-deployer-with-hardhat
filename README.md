@@ -168,6 +168,8 @@ After that, ```const Lock = await hre.ethers.getContractFactory("Lock");```. ```
 In ```const lock = await Lock.deploy(unlockTime, { value: lockedAmount });```, ```.deploy()``` function actually deploys it to the testnet, along with the parameters for initializing the contract's constructor and other values. If your contract doesn't have arguments, then you don't have to pass anything to deploy. 
 
 
+Similarly, if you look at ```SimpleContract```'s section of the deployment:
+
 ```javascript  
   let message = "hello world";
   const SimpleContract = await ethers.getContractFactory("SimpleContract");
@@ -177,6 +179,23 @@ In ```const lock = await Lock.deploy(unlockTime, { value: lockedAmount });```, `
 }
 ```
 
+Notice in ```contracts/SimpleContract.sol```, its constructor has to take a string input. 
+So once again we initialise this string in ```let message = "hello world"```.
+Then, we pick this contract by its name using ```.getContractFactory("SimpleContract")```
+After that we deploy it using ```.deploy()``` and pass the constructor arguments to deploy in ```.deploy(message)```.
 
+
+So, basically if you want to add any number of contracts and wish to deploy them:
+1. Add them to the ```contracts``` folder. 
+2. Change this ```scripts/deploy.js``` file by adding these few lines at the end of the main() function.
+3. First initialize the variables that need to be passed to the contract's constructor.
+4. Then pick the contract by its name using ```.getContractFactory("type your contract's name here")```
+5. Then deploy it using ```.deploy()``` and pass the constructor parameters to the deploy function. 
+
+Once each of the contract's in your folder are deployed, i.e. ```await simpleContract.deployed();``` is over for each of the contracts individually; then 
+```javascript
+  console.log(`SimpleContract with default message: ${message} deployed to: ${simpleContract.address}`);
+```
+This line will print the address where this contract is deployed. 
 
 
