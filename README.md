@@ -161,6 +161,11 @@ const currentTimestampInSeconds = Math.round(Date.now() / 1000);
     )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
   );
 ```
+We need the first 3 lines, i.e. setting values for  ```currentTimestampInSeconds```, ```unlockTime```, and  ```lockedAmount``` because these values are needed for initialising the variables of the constructor in ```Lock.sol```. If your contract's constructor doesn't have such inputs, then you can leave them empty. 
+
+After that, ```const Lock = await hre.ethers.getContractFactory("Lock");```. ```getContractFactory("Lock")``` selects the solidity file named ```Lock``` from the contracts folder. Instead of ```"Lock"``` in ```getContractFactory("Lock")```, place whatever the name of the contract that you have added to ```contracts``` folder and that you wish to deploy. Also choose meaningful names for the ```const lock``` and ```const Lock``` local variables. 
+
+In ```const lock = await Lock.deploy(unlockTime, { value: lockedAmount });```, ```.deploy()``` function actually deploys it to the testnet, along with the parameters for initializing the contract's constructor and other values. If your contract doesn't have arguments, then you don't have to pass anything to deploy. 
 
 
 ```javascript  
