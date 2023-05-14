@@ -27,7 +27,10 @@ This also should be kept secret while working with the mainnet and not revealed.
 
 
 
-## Section 2
+## Setting up hardhat and buidling the deployer. 
+
+You need node and npm installed. Download their latest versions. 
+
 
 Here's some code in Python:
 
@@ -35,12 +38,4 @@ Here's some code in Python:
 def add_numbers(a, b):
     return a + b
 ```
-## Section 3
 
-Here's some text describing the second section.
-
-![Alt text](path/to/another/image.jpg "Optional title")
-
-## Conclusion
-
-Here's some text wrapping up the content of the file.
