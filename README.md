@@ -48,6 +48,24 @@ Once hardhat is installed, we have to start a hardhat project with the following
 ```
 npx hardhat
 ```
+You will see something like this come up
+```
+What do you want to do? · Create a JavaScript project
+```
+There will be some other options, but choose the first one by pressing ```y``` . 
+
+```
+Hardhat project root: · /Users/sirshendu/codes/hardhat-1
+Do you want to add a .gitignore? (Y/n) · y
+Do you want to install this sample project's dependencies with npm (@nomicfoundation/hardhat-toolbox)? (Y/n) · y
+```
+Follow the prompt and choose the project root as selected by default and press ```y``` for the other two as well. 
+This will also automatically download some extra hardhat related tools.
+If you haven't pressed ```y``` in the last option, you can download them later with 
+```
+npm install --save-dev @nomicfoundation/hardhat-toolbox@^2.0.0
+```
+
 
 
 Here's some code in Python:
