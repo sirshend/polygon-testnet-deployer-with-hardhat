@@ -338,3 +338,16 @@ Make this whole thing work with just https://rpc-mumbai.maticvigil.com or https:
 Find a way to track the latest rpc endpoint active. 
 Does adding ```wss://``` instead of ```https://``` to https://rpc-mumbai.maticvigil.com etc. solve it? Need to try this out.
 
+### Update on "To do:"
+
+https://rpc-mumbai.maticvigil.com and https://matic-mumbai.chainstacklabs.com are also working. 
+Since these are open for all rpc endpoints, the previous error might be because of excess load ( or something else that I couldn't figure out then).
+Anyway, to make these endpoints work, do the following:
+```
+1. 
+2.
+3.
+4.
+
+```
+
