@@ -53,6 +53,8 @@ You will see something like this come up
 What do you want to do? · Create a JavaScript project
 ```
 There will be some other options, but choose the first one by pressing ```y``` . 
+If you somehow mistakenly choose something else or fumble, you can press `y` on `quit` and it will return you back to the intial menu from where you can select the ```Create a JavaScript project``` again. 
+Anyway, on clicking ```Create a JavaScript project```, you will find:
 
 ```
 Hardhat project root: · /Users/sirshendu/codes/hardhat-1
