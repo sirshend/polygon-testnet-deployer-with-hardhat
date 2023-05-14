@@ -145,4 +145,9 @@ Here we are naming the network we will be using, and use this to make the connec
 
 Finally look at ```deploy.js```
 
+Since we have 2 contracts, ```Lock.sol``` & ```SimpleContract.sol```, we have used ```.deploy()``` twice in this script. 
+Let's look at Lock's portion of the deployment code first. 
+
+
+
 
