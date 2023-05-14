@@ -1,5 +1,5 @@
 
-# polygon-testnet-deployer-with-hardhat
+# Polygon testnet-deployer-with-hardhat
 
 # My Markdown Document
 
