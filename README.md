@@ -59,9 +59,9 @@ For Block explorer URL: Enter https://mumbai.polygonscan.com
 
 We need the private key to store it a ```.env``` file in our hardhat project later. 
 
-<img width="275" height="300" alt="Screenshot 2023-05-15 at 12 20 18 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/de353005-fe78-495d-8f55-f79b8f973953">
-<img width="275" height="300" alt="Screenshot 2023-05-15 at 12 21 04 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/dc0534c0-eae9-4cdb-b233-bdf99446511c"> 
-<img width="275" height="300" alt="Screenshot 2023-05-15 at 12 20 41 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/1b62ec9b-9130-4750-b8ec-eedbd44c0ab6">
+<img width="285" height="300" alt="Screenshot 2023-05-15 at 12 20 18 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/de353005-fe78-495d-8f55-f79b8f973953">
+<img width="285" height="300" alt="Screenshot 2023-05-15 at 12 21 04 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/dc0534c0-eae9-4cdb-b233-bdf99446511c"> 
+<img width="285" height="300" alt="Screenshot 2023-05-15 at 12 20 41 am" src="https://github.com/sirshend/polygon-testnet-deployer-with-hardhat/assets/28855132/1b62ec9b-9130-4750-b8ec-eedbd44c0ab6">
 
 
 Click on the 3 dots on the left ( below your account image/picture/icon).
