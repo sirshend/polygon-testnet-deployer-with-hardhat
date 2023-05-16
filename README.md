@@ -279,7 +279,7 @@ After that we deploy it using ```.deploy()``` and pass the constructor arguments
 So, basically if you want to add any number of contracts and wish to deploy them:
 1. Add them to the ```contracts``` folder. 
 2. Change this ```scripts/deploy.js``` file by adding these few lines at the end of the main() function.
-3. First initialize the variables that need to be passed to the contract's constructor.
+3. First initialize the variables that need to be passed to the contract's constructor(i.e. either contract's state variables or constructor's variables)
 4. Then pick the contract by its name using ```.getContractFactory("type your contract's name here")```
 5. Then deploy it using ```.deploy()``` and pass the constructor parameters to the deploy function. 
 
